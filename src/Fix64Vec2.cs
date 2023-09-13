@@ -94,18 +94,18 @@ namespace FixMath.NET
         {
             return new Fix64Vec2(value1.X + (value2.X - value1.X) * amount, value1.Y + (value2.Y - value1.Y) * amount);
         }
-        //public static Fix64Vec2 Transform(Fix64Vec2 position, Fix64Mat3x2 matrix)
-        //{
-        //    return new Fix64Vec2(position.X * matrix.M11 + position.Y * matrix.M21 + matrix.M31, position.X * matrix.M12 + position.Y * matrix.M22 + matrix.M32);
-        //}
+        public static Fix64Vec2 Transform(Fix64Vec2 position, Fix64Mat3x2 matrix)
+        {
+            return new Fix64Vec2(position.X * matrix.M11 + position.Y * matrix.M21 + matrix.M31, position.X * matrix.M12 + position.Y * matrix.M22 + matrix.M32);
+        }
         //public static Fix64Vec2 Transform(Fix64Vec2 position, Fix64Mat4x4 matrix)
         //{
         //    return new Fix64Vec2(position.X * matrix.M11 + position.Y * matrix.M21 + matrix.M41, position.X * matrix.M12 + position.Y * matrix.M22 + matrix.M42);
         //}
-        //public static Fix64Vec2 TransformNormal(Fix64Vec2 normal, Fix64Mat3x2 matrix)
-        //{
-        //    return new Fix64Vec2(normal.X * matrix.M11 + normal.Y * matrix.M21, normal.X * matrix.M12 + normal.Y * matrix.M22);
-        //}
+        public static Fix64Vec2 TransformNormal(Fix64Vec2 normal, Fix64Mat3x2 matrix)
+        {
+            return new Fix64Vec2(normal.X * matrix.M11 + normal.Y * matrix.M21, normal.X * matrix.M12 + normal.Y * matrix.M22);
+        }
         //public static Fix64Vec2 TransformNormal(Fix64Vec2 normal, Fix64Mat4x4 matrix)
         //{
         //    return new Fix64Vec2(normal.X * matrix.M11 + normal.Y * matrix.M21, normal.X * matrix.M12 + normal.Y * matrix.M22);
