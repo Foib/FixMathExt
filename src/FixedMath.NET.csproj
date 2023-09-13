@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fix64.cs" />
+    <Compile Include="Fix64Mat3x2.cs" />
     <Compile Include="Fix64SinLut.cs" />
     <Compile Include="Fix64TanLut.cs" />
+    <Compile Include="Fix64Vec2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
