@@ -926,6 +926,24 @@ namespace FixMathExt
             return atan;
         }
 
+        public static Fix64 Min(Fix64 val1, Fix64 val2)
+        {
+            if (val1 <= val2) return val1;
+            return val2;
+        }
+        public static Fix64 Max(Fix64 val1, Fix64 val2)
+        {
+            if (val1 >= val2) return val1;
+            return val2;
+        }
+        public static Fix64 Clamp(Fix64 value, Fix64 min, Fix64 max)
+        {
+            return
+                value < min ? min :
+                value > max ? max :
+                value;
+        }
+
         public static Fix64 Remainder(Fix64 x, Fix64 y)
         {
             Fix64 d = x % y;
