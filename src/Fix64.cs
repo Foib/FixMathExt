@@ -2,9 +2,8 @@
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace FixMath.NET
+namespace FixMathExt
 {
-
     /// <summary>
     /// Represents a Q31.32 fixed-point number.
     /// </summary>

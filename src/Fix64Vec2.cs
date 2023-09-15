@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Numerics;
 using System.Text;
 
-namespace FixMath.NET
+namespace FixMathExt
 {
     public struct Fix64Vec2 : IEquatable<Fix64Vec2>, IFormattable
     {

@@ -1,0 +1,14 @@
+FixMathExt
+Copyright 2023 Fynn Budde
+
+This product includes software developed by Dan Moulding.
+(https://github.com/dmoulding/log2fix)
+Copyright 2015 Dan Moulding.
+
+This product includes software developed by Petteri Aimonen.
+(https://github.com/PetteriAimonen/libfixmath)
+Copyright 2012 Petteri Aimonen.
+
+This product includes software developed by André Slupik.
+(https://github.com/asik/FixedMath.Net)
+Copyright 2012 André Slupik

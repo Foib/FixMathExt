@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace FixMath.NET
+namespace FixMathExt
 {
     public struct Fix64Mat3x2 : IEquatable<Fix64Mat3x2>
     {

@@ -1,4 +1,4 @@
-namespace FixMath.NET 
+namespace FixMathExt 
 {
     partial struct Fix64 
     {
