@@ -11,7 +11,11 @@
     <icon>icon.png</icon>
 	<repository type="git" url="https://github.com/Foib/FixMathExt" />
     <description>$description$</description>
-    <releaseNotes>Added Min, Max and Clamp</releaseNotes>
+    <releaseNotes>
+		- Added 3D vector
+		- Upgraded to .NET 6.0
+		- Cleaned up code
+	</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Math Fix Fixed FixMath FixedMath FixedPoint FixMathExt MathExt Vector Matrix Trigonometry FixedMath.Net</tags>
   </metadata>
