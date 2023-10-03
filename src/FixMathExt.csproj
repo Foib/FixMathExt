@@ -16,14 +16,14 @@
 	  <Description>Fixed point math library. Extension of the FixedMath.Net library by André Slupik %28https://github.com/asik/FixedMath.Net%29.</Description>
 	  <Copyright>Copyright © 2023 Fynn Budde</Copyright>
 	  <PackageIcon>./icon.png</PackageIcon>
-	  <PackageReadmeFile>./README.md</PackageReadmeFile>
+	  <PackageReadmeFile>../README.md</PackageReadmeFile>
 	  <RepositoryUrl>https://github.com/Foib/FixMathExt</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageTags>Math Fix Fixed FixMath FixedMath FixedPoint FixMathExt MathExt Vector Matrix Trigonometry FixedMath.Net</PackageTags>
 	  <PackageReleaseNotes>
 		  - Divide by zero handling
 	  </PackageReleaseNotes>
-	  <PackageLicenseFile>./LICENSE.txt</PackageLicenseFile>
+	  <PackageLicenseFile>../LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
